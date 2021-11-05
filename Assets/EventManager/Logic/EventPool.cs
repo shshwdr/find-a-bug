@@ -9,6 +9,7 @@ namespace Pool
     /// </summary>
     public class EventPool : MonoBehaviour
     {
+        static public string bugFixed = "BugFixed";
         private Dictionary<string, IConcreteUnityEvent> events0Arg, events1Arg, events2Arg, events3Arg;
 
         private static EventPool manager;
